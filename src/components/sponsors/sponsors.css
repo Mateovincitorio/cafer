@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    margin: 80px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.img{
+    width: 100px;
+    height: auto;
+}
+
+.h2coop{
+    text-align: center;
+    text-decoration: underline rgb(42, 52, 41);
+    font-size: 50px;
+    margin-left: 25px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(42, 52, 41);
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+.containerArriba{
+    display: flex;
+}
+
+.logofoto{
+    width: 80px;
+    height: auto;
+}
+
+.contFoto{
+    width: 20%;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.conth2{
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.subtitulo{
+    text-align: center;
+    text-decoration: underline rgb(42, 52, 41);
+    font-size: 50px;
+    margin-left: 25px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(42, 52, 41);
+}

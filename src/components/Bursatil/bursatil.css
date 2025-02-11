@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seccion{
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+
+.img1{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    filter: brightness(0.3);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.img2{
+    position: absolute;
+    height: auto;
+    width: 40%;
+    top: 200px; /* Ajusta según donde quieras que aparezca */
+    left: 50px;
+}
+
+.ulSeccion{
+    position: absolute;
+    top: 45%;
+    margin-left: 20px;
+    left: 60%;
+}
+
+.liSeccion{
+    width: 500px;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+    list-style-type:circle;
+    color: blanchedalmond;
+    font-size: x-large;
+}
+
+.h2Whatsapp{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    top: 70%;
+    color:blanchedalmond;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.imgCont{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    filter: brightness(0.7);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.imgcomercio{
+    position: absolute;
+    height: auto;
+    width: 40%;
+    top: 200px; /* Ajusta según donde quieras que aparezca */
+    left: 50px;
+}
+
+.imgCorretaje{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    filter: brightness(0.3);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.ulSeccionCorretaje{
+    position: absolute;
+    top: 30%;
+    margin-left: 20px;
+    left: 60%;
+}
+.mapa{
+    width: 100%;
+    height: auto;
+    
+}

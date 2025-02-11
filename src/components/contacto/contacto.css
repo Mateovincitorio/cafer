@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    color: bisque;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+}
+.izquierda{
+    background-color: black;
+    width: 50%;
+    height: auto;
+    margin-left: 45px;
+    padding: 100px;
+    border: 3px white solid;
+}
+
+.contacto-item{
+    display: flex;
+  align-items: center; /* Alinea los íconos y los textos verticalmente */
+  margin-bottom: 10px;
+}
+
+.h3contacto{
+    margin-left: 5px;
+}
+
+.cafercl{
+text-align: center;
+}
+
+.h4coop{
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 50px;
+}
+.subtitulos{
+    text-decoration: underline;
+    font-size: smaller;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.derecha{
+    width: 50%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.mapaParana{
+    height: 100%
+}

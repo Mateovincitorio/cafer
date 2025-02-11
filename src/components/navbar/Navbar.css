@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que el navbar esté encima del resto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px 20px; /* Espaciado interno */
+    height: 100px; /* Altura del navbar */
+}
+
+.logocafer {
+    width: 300px;
+    height: auto; /* Asegura que se mantenga proporcional */
+}
+
+.lista {
+    display: flex;
+    align-items: center; /* Centra los elementos dentro de la lista */
+    gap: 20px; /* Espaciado entre los elementos */
+    margin-right: 20px; /* Ajusta la separación con el borde derecho */
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listaLi {
+    font-size: 1.2rem; /* Tamaño de texto legible */
+    color: blanchedalmond;
+    cursor: pointer; /* Indica que es clickeable */
+    transition: color 0.3s ease; /* Efecto de transición al hover */
+    margin-right: 10px;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%; /* Aparece justo debajo del elemento padre */
+    left: 0;
+    background-color: #000; /* Fondo del submenú */
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 10px;
+    z-index: 1001; /* Asegura que esté encima de otros elementos */
+}
+
+.submenu.open {
+    display: block;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .submenu li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    list-style: none;
+  }
+.listaLi:hover {
+    color: rgb(4, 227, 4); /* Cambia el color al pasar el mouse */
+}
